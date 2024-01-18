@@ -1,0 +1,215 @@
+
+@import "nav";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header-text {
+
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.second-head {
+    
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.third-head {
+    
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.fourth-head {
+    
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+
+.grid-section {
+    padding-top: 20px;
+    width: 1274px;
+    height: 356px;
+    top: 100px;
+    left: 83px;
+    display: flex;
+
+
+}
+
+
+.container {
+    display: flex;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.base-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.input-field{
+    width: 268px;
+height: 50px;
+border: 1px;
+border: 1px solid #D8D8D8;
+color:  #D8D8D8;
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+padding-left: 20px;
+text-align: left;
+
+
+
+}
+.flex-columns{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.f {
+    &-para {
+      padding: 4rem;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+    &-accordions {
+      width: 50%;
+      margin: auto;
+    }
+    &-accordion-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      padding: 1rem;
+      &-primary {
+        width: 90%;
+      }
+      text-align: center;
+      font-family: Inter;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2rem;
+      border: none;
+    }
+    &-accordion-panel {
+      display: none;
+    }
+  
+  
+  
+  
+}  
+
+
+div.project_content {
+    padding-top: 25vh;
+    justify-items: center;
+    align-items: center;
+ }
+ .project_content h1,h2, p {
+    padding: 0.2rem 1rem;
+ }
+ 
+ 
+ .project_container img {
+    height: 75%;
+ }
+ 
+ 
+ /* Swiper container stylng */
+ .swiper {
+    right: 1rem;
+    width: 100%;
+    height: 100%;
+ }
+ 
+ 
+ .swiper-slide {
+    text-align: center;
+     /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+ }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+ 
+ .slide_1 {
+    background-color:#643ca3 ;
+ }
+ 
+ 
+ .slide_2 {
+    background-color:#e38364 ;
+ }
+ 
+ 
+ .slide_3 {
+    background-color:#faf47a ;
+ }
+ 
+ .slide_4 {
+    background-color:#faf47a ;
+ }
+
+ .slide_5 {
+    background-color:#faf47a ;
+ }
+
+ .swiper-button-next,
+.swiper-button-prev {
+   outline: none;
+}
+
+
+div.swiper-button-next, div.swiper-button-prev {
+  top: 70%
+}
+
+  
