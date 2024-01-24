@@ -1,12 +1,14 @@
-var acc = document.getElementsByClassName("fourthSection-accordion-btn");
+var acc = document.getElementsByClassName("fourth-sec-accordion-btn");
 var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function () {
+    
     let buttonsymbol = this.querySelector(
-      ".fourthSection-accordion-btn-symbol"
+      ".fourth-sec-accordion-btn-symbol"
     );
     console.log(buttonsymbol);
+  
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
