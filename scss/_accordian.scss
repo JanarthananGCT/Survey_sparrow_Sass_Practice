@@ -1,0 +1,66 @@
+.accordian-flex {
+    width: 704px;
+    display: flex;
+    flex-direction: column;
+  
+    overflow: hidden;
+  }
+  
+  .accordian-flex-head {
+    position: relative;
+    margin-top: 1.4rem;
+  }
+  
+  .accordian-flex-head-1 {
+    margin-top: 0;
+    position: relative;
+  }
+  
+  .accordian-p-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #0d1b1e;
+    cursor: pointer;
+    padding: 0 0 1rem 0;
+  }
+  
+  .accordian-p-title::before {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    margin-left: 10px;
+  }
+  
+  .accordian-p-title.activeContent::before {
+    content: "-";
+  }
+  
+  .accordian-span {
+    position: absolute;
+    top: 12%;
+    right: 0;
+  }
+  
+  .accordian-p-content {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    width: 652px;
+  
+    margin-inline: auto;
+  
+    transition: 0.5s;
+  
+    height: 0;
+  }
+  
+  .active {
+    height: 111px;
+  }
+  
+  hr {
+    opacity: 0.5;
+  }

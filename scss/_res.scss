@@ -1,0 +1,543 @@
+
+@media (max-width: 1276px) {
+    .mobile-nav {
+      display: block;
+    }
+  
+    .flex-div-p {
+      font-size: 0.8rem;
+      line-height: 25px;
+    }
+  
+    .header-flex {
+      display: none;
+    }
+  
+    .signup {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .banner-img-div > img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .undraw-full {
+      width: 100%;
+    }
+  
+    .undraw-full > img {
+      width: 100%;
+    }
+  
+    .flex-div-full {
+      width: 100%;
+    }
+  
+    .flex-div {
+      width: 100%;
+    }
+  
+    .customer-content {
+      width: 100%;
+    }
+  
+    .setting-p {
+      width: 85%;
+    }
+  
+    .wrap-per-div {
+      width: 75%;
+    }
+  
+    .content-light {
+      width: 100%;
+    }
+  
+    .content-software {
+      width: 100%;
+    }
+  
+    .features-title {
+      width: 100%;
+    }
+  
+    .features-p {
+      width: 100%;
+    }
+  
+    .ss-content {
+      width: 85%;
+    }
+  
+    .subtitle {
+      width: 100%;
+    }
+  
+    .badges {
+      width: 100%;
+    }
+  
+    .competitors {
+      width: 100%;
+    }
+  
+    .customers-p {
+      width: 100%;
+    }
+  
+    .customers {
+      width: 100%;
+    }
+  
+    .banner-img-div {
+      width: 100%;
+    }
+  
+    .social-media {
+      height: auto;
+    }
+    .flex1 {
+      margin-top: 1.5rem;
+    }
+  
+    .flex-wrap-div {
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width: 920px) and (max-width: 1123px) {
+    .undraw-full {
+      width: 50%;
+      height: 100%;
+    }
+  
+    .undraw-full > img {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 1110px) {
+    .flex-div-p {
+      font-size: 0.7rem;
+      line-height: 25px;
+    }
+  
+    .utilize {
+      width: 100%;
+    }
+  
+    .flex-wrap-div {
+      justify-content: center;
+    }
+  
+    .banner-img-div > img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .footer {
+      width: 85%;
+    }
+  
+    .gather-data-content {
+      width: 100%;
+    }
+  
+    .flex-div-left {
+      width: 50%;
+    }
+  
+    .flex-div-right {
+      width: 50%;
+    }
+  
+    .flex-img {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 941px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+  
+    .banner-flex-col {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .content {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .gather-data {
+      height: auto;
+    }
+  
+    .gather-data-content {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .setting-p {
+      padding: 1.5rem 0;
+    }
+  
+    .flex1 {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+    }
+  
+    .undraw-full {
+      width: 85%;
+    }
+  
+    .flex-div {
+      flex-direction: column;
+      padding-bottom: 1rem;
+      height: auto;
+    }
+  
+    .flex-div > img {
+      padding-bottom: 3rem;
+    }
+  
+    .flex-div-p {
+      font-size: 0.9rem;
+    }
+    .flex-img {
+      margin-bottom: 3rem;
+    }
+  
+    .flex-div-left {
+      width: 85%;
+    }
+  
+    .flex-div-right {
+      width: 85%;
+    }
+  
+    .flex-img {
+      width: 100%;
+    }
+  
+    .footer {
+      margin-inline: auto;
+    }
+  
+    .title {
+      text-align: center;
+    }
+    .content {
+      text-align: center;
+    }
+  
+    .arrow-button {
+      clip-path: none;
+    }
+  
+    .clip-path {
+      border-bottom: 4px solid #30bf91;
+      position: relative;
+      margin-top: -1px;
+    }
+  
+    .clip-path:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 0;
+      height: 0;
+      border-top: 20px solid #30bf91;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+    }
+  
+    .flex-design {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+  }
+  
+  /* Breakpoint -771px */
+  
+  @media (max-width: 771px) {
+    .accordian-flex-head {
+      width: 100%;
+    }
+  
+    .accordian-p-title {
+      width: 70%;
+      margin-inline: auto;
+    }
+  
+    .badges {
+      flex-direction: column;
+      gap: 5rem;
+    }
+  
+    .utlizes {
+      padding: 61px 40px 55px 60px;
+      flex-direction: column;
+      gap: 3.5rem;
+      align-items: center;
+    }
+  
+    .flex-full {
+      height: auto;
+      padding: 3rem 0;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .utilize-desktop {
+      position: relative;
+      display: none;
+    }
+  
+    .active {
+      height: 140px;
+    }
+  
+    .utilize-mobile {
+      display: flex;
+      width: 100%;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      text-align: start;
+    }
+  
+    .tools-self > img {
+      height: 35px;
+    }
+  
+    .build {
+      margin-top: 4px;
+    }
+  
+    .flex-img {
+      width: 100%;
+      margin-top: 2rem;
+    }
+  
+    .flex-div-left {
+      width: 100%;
+    }
+  
+    .wrap-per-div {
+      width: 85%;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      /* width: 100%; */
+    }
+  
+    .footer-width {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+  
+    .social-media {
+      width: 100%;
+      margin-bottom: 6rem;
+      justify-content: center;
+    }
+  
+    .flex-img {
+      margin-top: 4rem;
+    }
+  
+    .ss-title {
+      width: 85%;
+    }
+  
+    .accordian-container {
+      width: 100%;
+    }
+  
+    .accordian-flex {
+      width: 100%;
+    }
+  
+    .accordian-p-content {
+      width: 85%;
+    }
+  
+    .flex-div-p {
+      height: auto;
+    }
+  
+    .competitors {
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      overflow: scroll;
+      padding-bottom: 1.5rem;
+    }
+  
+    .demo-text {
+      margin-left: 2px;
+    }
+  
+    .badges {
+      flex-direction: row;
+  
+      width: 200px;
+      justify-content: space-between;
+      overflow: scroll;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .flex-break {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .read-more {
+      margin-top: 0;
+    }
+  
+    .green-content {
+      width: 85%;
+      text-align: center;
+    }
+  
+    .input-div-fix {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .header-input {
+      width: 85%;
+    }
+  
+    .button-header {
+      margin-top: 10px;
+      width: 85%;
+      height: 40px;
+    }
+  
+    .banner-img-div > img {
+      height: auto;
+    }
+  
+    .green-input {
+      width: 85%;
+      border-radius: 5px;
+    }
+  
+    .green-button {
+      width: 85%;
+      border-radius: 5px;
+      height: 48px;
+    }
+  
+    .see-it-inp {
+      width: 331px;
+    }
+  
+    .see-it-button {
+      width: 331px;
+      height: 48px;
+    }
+  
+    .customers {
+      flex-direction: row;
+      overflow: scroll;
+    }
+  
+    .active {
+      height: 170px;
+    }
+  
+    .name {
+      font-size: 1.2rem;
+    }
+  
+    .flex-cus {
+      padding: 0 2rem;
+    }
+  
+    .op {
+      padding: 0 2rem;
+    }
+  
+    .footer {
+      margin-top: 6rem;
+    }
+  
+    .green-button-mod {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .content-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  
+    .content-software {
+      font-size: 0.9rem;
+      line-height: 28px;
+    }
+  
+    .flex-contents > p {
+      /* width: 100%; */
+      font-size: 10px;
+    }
+  
+    .demo-text {
+      font-size: 10px;
+    }
+  
+    .header-tiles {
+      width: 100%;
+    }
+  
+    .img-real {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .container-full {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .flex-full-out {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 447px) {
+    .active {
+      height: 230px;
+    }
+  }

@@ -1,0 +1,64 @@
+
+.section-blue {
+  background-color: #f5fdff;
+  margin-top: 186px;
+}
+
+.flex-full {
+  width: 100%;
+  background-color: #30bf91;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 288px;
+  position: relative;
+  top: -140px;
+}
+
+.green-title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 56px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.green-input {
+  width: 310px;
+  height: 56px;
+  box-sizing: border-box;
+  padding: 16px 69px 17px 16px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  font-style: normal;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: none;
+}
+
+.green-button {
+  background-color: #0d1b1e;
+  width: 195px;
+  height: 56px;
+  margin-top: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.green-content {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f6f6f6;
+  margin-top: 12px;
+  text-align: center;
+}

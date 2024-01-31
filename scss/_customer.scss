@@ -1,0 +1,49 @@
+.demo-text {
+  width: 102px;
+  height: 25px;
+  font-size: 14px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  margin-left: 8px;
+  color: #0d1b1e;
+  align-self: flex-start;
+  margin-top: 4px;
+}
+
+.flex-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 14px; */
+  font-family: "Inter";
+  font-weight: 300;
+}
+
+.read-more {
+  margin-top: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.8rem;
+}
+
+.customer-title {
+  font-size: 2.25rem;
+}
+
+.customer-content {
+  width: 1109px;
+  font-weight: 400;
+}
+
+.readMore {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 2rem;
+}

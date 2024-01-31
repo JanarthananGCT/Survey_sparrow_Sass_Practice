@@ -1,0 +1,48 @@
+@import "variables";
+.footer {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    width: 67.529rem;
+    height: 317px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-title {
+    color: #0d1b1e;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 1.875rem;
+  }
+  
+  .footer-p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(13, 27, 30, 0.5);
+  }
+  
+  .flex-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .flex-footer-mod {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .iso-logos {
+    margin-top: 4.72rem;
+  }
